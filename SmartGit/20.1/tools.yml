@@ -13,6 +13,13 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   forFilesNotDirectories: false
+- id: openInExplorer
+  name: Open in Explorer
+  fileStarter: {command: explorer.exe, parameters: '/e, ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
 - id: revealInExplorer
   name: Reveal in Explorer
   fileStarter: {command: explorer.exe, parameters: '/select, ${filePath}'}
@@ -86,4 +93,4 @@ tools:
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
-manuallyDeletedIds: [openInExplorer, openInCmd]
+manuallyDeletedIds: [openInCmd]

@@ -2,7 +2,6 @@ git:
   projectToolBar-17:
     items:
     - {id: fetch}
-    - {id: sync}
     - {id: push}
     - {stretching: true}
     - {id: stage}
@@ -25,7 +24,6 @@ git:
   logToolBar-18.2:
     items:
     - {id: fetch}
-    - {id: sync}
     - {id: push}
     - {id: flowContext}
     - {stretching: true}
