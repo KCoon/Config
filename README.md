@@ -1,2 +1,2 @@
 # Config
-Configurations for different applications
+Configurations for different applications. Feel free to adapt.
